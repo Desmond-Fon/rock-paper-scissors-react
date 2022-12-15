@@ -1,10 +1,12 @@
 import './App.css';
+import Header from './component/Header';
+
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <div className='bg-gradient-to-b from-radical-gradient-from to-radical-gradient-to h-full'>
+    <Header />
+    </div>
   );
 }
 
