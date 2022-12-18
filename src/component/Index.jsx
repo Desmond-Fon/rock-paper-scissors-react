@@ -4,7 +4,7 @@ import scissors from "../assets/images/icon-scissors.svg";
 import triangle from "../assets/images/bg-triangle.svg"
 
 const Index = ({toggleSelectSection}) => {
-    return ( <div className="flex flex-col justify-center items-center mt-32 mb-40">
+    return ( <div className="flex flex-col justify-center items-center mt-32 mb-44">
     <img src={triangle} alt="" className="h-36"/>
     <div className="flex justify-center items-center flex-col gap-10 absolute">
         <div className="flex justify-center items-center gap-10">
@@ -16,7 +16,7 @@ const Index = ({toggleSelectSection}) => {
         </div>
         </div>
         <div className="bg-white w-24 h-24 border-rock-gradient-from border-[10px] rounded-full flex justify-center items-center shadow-sm shadow-rock-gradient-to drop-shadow-md" onClick={toggleSelectSection}>
-        <img src={rock} alt="paper" className="h-10"/>
+        <img src={rock} alt="rock" className="h-10"/>
         </div>
     </div>
     </div> );
