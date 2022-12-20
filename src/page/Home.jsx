@@ -9,10 +9,9 @@ const Home = ({
   selectSection,
   toggleSelectSection,
   itemPicked,
-  setItemPicked,
   str,
   toggler,
-  verdict
+  verdict,
 }) => {
   return (
     <div className="bg-gradient-to-b from-radical-gradient-from to-radical-gradient-to h-screen">
@@ -20,7 +19,6 @@ const Home = ({
       {selectSection ? (
         <Select
           itemPicked={itemPicked}
-          setItemPicked={setItemPicked}
           toggleSelectSection={toggleSelectSection}
           str={str}
           toggler={toggler}

@@ -8,14 +8,14 @@ const Index = ({toggleSelectSection}) => {
     <img src={triangle} alt="" className="h-36"/>
     <div className="flex justify-center items-center flex-col gap-10 absolute">
         <div className="flex justify-center items-center gap-10">
-        <div className="bg-white w-24 h-24 border-paper-gradient-from border-[10px] rounded-full flex justify-center items-center shadow-sm shadow-paper-gradient-to drop-shadow-md" onClick={toggleSelectSection}> 
+        <div className="bg-white w-24 h-24 border-paper-gradient-from border-[10px] rounded-full flex justify-center items-center shadow-md shadow-gray-500 drop-shadow-md" onClick={toggleSelectSection}> 
         <img src={paper} alt="paper" className="h-12"/>
         </div>
-        <div className="bg-white w-24 h-24 border-scissors-gradient-from border-[10px] rounded-full flex justify-center items-center shadow-sm shadow-scissors-gradient-to drop-shadow-md" onClick={toggleSelectSection}>
+        <div className="bg-white w-24 h-24 border-scissors-gradient-from border-[10px] rounded-full flex justify-center items-center  shadow-md shadow-gray-500 drop-shadow-md" onClick={toggleSelectSection}>
         <img src={scissors} alt="scissors" className="h-12"/>
         </div>
         </div>
-        <div className="bg-white w-24 h-24 border-rock-gradient-from border-[10px] rounded-full flex justify-center items-center shadow-sm shadow-rock-gradient-to drop-shadow-md" onClick={toggleSelectSection}>
+        <div className="bg-white w-24 h-24 border-rock-gradient-from border-[10px] rounded-full flex justify-center items-center shadow-md shadow-gray-500 drop-shadow-md" onClick={toggleSelectSection}>
         <img src={rock} alt="rock" className="h-10"/>
         </div>
     </div>
