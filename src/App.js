@@ -23,7 +23,7 @@ function App() {
     setItemPicked(el.src);
     setSelectSection(true);
     // console.log(el)
-    // console.log(el.src)
+    console.log(el.src)
     // console.log(pickedItem);
     // console.log(str)
 
