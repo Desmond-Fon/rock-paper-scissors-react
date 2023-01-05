@@ -30,15 +30,15 @@ function App() {
     
     if (
       (el.src ===
-        "http://localhost:3000/rock-paper-scissors-react/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg" &&
+        "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg" &&
         pickedItem ===
           "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg") ||
       (el.src ===
-        "http://localhost:3000/rock-paper-scissors-react/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg" &&
+        "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg" &&
         pickedItem ===
           "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg") ||
       (el.src ===
-        "http://localhost:3000/rock-paper-scissors-react/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg" &&
+        "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg" &&
         pickedItem ===
           "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg")
     ) {
@@ -47,15 +47,15 @@ function App() {
       setScore((prevActiveStep) => prevActiveStep + 1);
     } else if (
       (el.src ===
-        "http://localhost:3000/rock-paper-scissors-react/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg" &&
+        "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg" &&
         pickedItem ===
           "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg") ||
       (el.src ===
-        "http://localhost:3000/rock-paper-scissors-react/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg" &&
+        "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg" &&
         pickedItem ===
           "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg") ||
       (el.src ===
-        "http://localhost:3000/rock-paper-scissors-react/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg" &&
+        "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg" &&
         pickedItem ===
           "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg")
     ) {
