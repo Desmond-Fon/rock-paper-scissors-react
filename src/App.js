@@ -9,9 +9,9 @@ function App() {
   const [score, setScore] = useState(0);
   const [verdict, setVerdict] = useState("");
   const arr = [
-    "http://localhost:3000/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg",
-    "http://localhost:3000/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg",
-    "http://localhost:3000/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg",
+    "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg",
+    "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg",
+    "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg",
   ];
   let pickedItem = arr[Math.floor(Math.random() * arr.length)];
   const [str, setStr] = useState(pickedItem);
@@ -22,42 +22,42 @@ function App() {
     setStr(pickedItem);
     setItemPicked(el.src);
     setSelectSection(true);
-    console.log(pickedItem);
-    console.log(el)
-    console.log(el.src)
-    console.log(str)
+    // console.log(el)
+    // console.log(el.src)
+    // console.log(pickedItem);
+    // console.log(str)
 
     
     if (
       (el.src ===
-        "http://localhost:3000/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg" &&
+        "http://localhost:3000/rock-paper-scissors-react/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg" &&
         pickedItem ===
-          "http://localhost:3000/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg") ||
+          "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg") ||
       (el.src ===
-        "http://localhost:3000/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg" &&
+        "http://localhost:3000/rock-paper-scissors-react/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg" &&
         pickedItem ===
-          "http://localhost:3000/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg") ||
+          "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg") ||
       (el.src ===
-        "http://localhost:3000/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg" &&
+        "http://localhost:3000/rock-paper-scissors-react/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg" &&
         pickedItem ===
-          "http://localhost:3000/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg")
+          "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg")
     ) {
       // console.log("you win");
       setVerdict("YOU WIN");
       setScore((prevActiveStep) => prevActiveStep + 1);
     } else if (
       (el.src ===
-        "http://localhost:3000/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg" &&
+        "http://localhost:3000/rock-paper-scissors-react/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg" &&
         pickedItem ===
-          "http://localhost:3000/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg") ||
+          "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg") ||
       (el.src ===
-        "http://localhost:3000/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg" &&
+        "http://localhost:3000/rock-paper-scissors-react/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg" &&
         pickedItem ===
-          "http://localhost:3000/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg") ||
+          "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg") ||
       (el.src ===
-        "http://localhost:3000/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg" &&
+        "http://localhost:3000/rock-paper-scissors-react/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg" &&
         pickedItem ===
-          "http://localhost:3000/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg")
+          "https://desmond-fon.github.io/rock-paper-scissors-react/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg")
     ) {
       if (score > 0) {
         setScore((prevActiveStep) => prevActiveStep - 1);
