@@ -22,7 +22,12 @@ function App() {
     setStr(pickedItem);
     setItemPicked(el.src);
     setSelectSection(true);
+    console.log(pickedItem);
+    console.log(el)
+    console.log(el.src)
+    console.log(str)
 
+    
     if (
       (el.src ===
         "http://localhost:3000/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg" &&
